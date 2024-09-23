@@ -1,18 +1,13 @@
 /* Default styles for small screens */
 body {
-    background-color: white; /* Normal background color for body */
-    color: black; /* Normal font color for body text */
+    background-color: peru; /* Background color for body */
+    color: bisque; /* Font color for body text */
     font-family: Arial, sans-serif; /* Font family for body text */
 }
 
-header {
-    text-align: center; /* Center align header text */
-    margin-bottom: 20px; /* Add some space below the header */
-}
-
 main {
-    background-color: white; /* Normal background color for main content area */
-    color: black; /* Normal font color for main content area */
+    background-color: saddlebrown; /* Background color for main content area */
+    color: gainsboro; /* Font color for main content area */
 }
 
 footer {
@@ -23,8 +18,8 @@ footer {
 /* Styles for larger screens */
 @media (min-width: 750px) {
     body {
-        background-color: white; /* Normal background color for body on large screens */
-        color: black; /* Normal font color for body text on large screens */
+        background-color: maroon; /* Background color for body on large screens */
+        color: moccasin; /* Font color for body text on large screens */
         font-family: Georgia, serif; /* Font family for header text on large screens */
     }
 }
