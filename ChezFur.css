@@ -1,25 +1,17 @@
-/* Default styles for small screens */
-body {
-    background-color: peru; /* Background color for body */
-    color: bisque; /* Font color for body text */
-    font-family: Arial, sans-serif; /* Font family for body text */
-}
-
-main {
-    background-color: saddlebrown; /* Background color for main content area */
-    color: gainsboro; /* Font color for main content area */
-}
-
-footer {
-    text-align: center; /* Center align footer text */
-    margin-top: 20px; /* Add some space above the footer */
-}
-
-/* Styles for larger screens */
-@media (min-width: 750px) {
-    body {
-        background-color: maroon; /* Background color for body on large screens */
-        color: moccasin; /* Font color for body text on large screens */
-        font-family: Georgia, serif; /* Font family for header text on large screens */
-    }
-}
+<!DOCTYPE html>
+<html lang="en"> <!-- Add lang attribute -->
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+    <title>Your Document Title</title> <!-- Required title element -->
+    <style>
+        /* Default styles for small screens */
+        body {
+            /* Your styles here */
+        }
+    </style>
+</head>
+<body>
+    <!-- Your content here -->
+</body>
+</html>
