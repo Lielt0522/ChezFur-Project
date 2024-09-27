@@ -1,17 +1,23 @@
-<!DOCTYPE html>
-<html lang="en"> <!-- Add lang attribute -->
-<head>
-    <meta charset="UTF-8"> <!-- Character encoding -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
-    <title>Your Document Title</title> <!-- Required title element -->
-    <style>
-        /* Default styles for small screens */
-        body {
-            /* Your styles here */
-        }
-    </style>
-</head>
-<body>
-    <!-- Your content here -->
-</body>
-</html>
+/* CSS for Chez Fur */
+
+/* Default styles for small screens */
+body {
+    background-color: peru;       /* Set background color */
+    color: bisque;                /* Set font color */
+    font-family: Arial, sans-serif; /* Set font family */
+}
+
+main {
+    background-color: saddlebrown; /* Main content background */
+    color: gainsboro;               /* Main content font color */
+}
+
+/* Responsive styles for larger screens */
+@media (min-width: 750px) {
+    body {
+        background-color: maroon;   /* Change background for larger screens */
+        color: moccasin;            /* Change text color for larger screens */
+        font-family: Georgia, serif; /* Change font for headers */
+    }
+}
+
