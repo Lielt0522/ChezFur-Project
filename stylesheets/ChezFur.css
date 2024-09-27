@@ -1,14 +1,23 @@
 /* ChezFur.css */
+
+/* Base styles for the body */
 body {
-    background-color: #C8A5A5; /* Background color */
-    color: #333333; /* Text color */
-    font-family: Arial, sans-serif; /* Default font */
+    background-color: peru; /* Set background color for mobile */
+    color: bisque; /* Font color for text */
+    font-family: Arial, sans-serif; /* Font family */
     margin: 0; /* Remove default margin */
-    padding: 20px; /* Add some padding */
+    padding: 20px; /* Add padding */
 }
 
-header, footer {
-    text-align: center; /* Center text in header and footer */
+/* Header styles */
+header {
+    text-align: center; /* Center header text */
+    padding: 20px 0; /* Space around header */
+}
+
+/* Navigation styles */
+nav {
+    text-align: center; /* Center navigation */
 }
 
 nav ul {
@@ -17,16 +26,31 @@ nav ul {
 }
 
 nav ul li {
-    display: inline; /* Display list items inline */
-    margin-right: 15px; /* Space between menu items */
+    display: inline; /* Display items inline */
+    margin-right: 15px; /* Space between items */
 }
 
 nav ul li a {
     text-decoration: none; /* Remove underline from links */
-    color: #333333; /* Link color */
+    color: bisque; /* Link color */
+    font-weight: bold; /* Bold links */
 }
 
-nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
+/* Main content styles */
+main {
+    background-color: saddlebrown; /* Background color for main content */
+    color: gainsboro; /* Font color for main content */
+    padding: 20px; /* Padding for main content */
+}
+
+/* Media Query for larger screens */
+@media (min-width: 750px) {
+    body {
+        background-color: maroon; /* Change background color for larger screens */
+        color: moccasin; /* Change text color for larger screens */
+        font-family: Georgia, serif; /* Change font family for header text */
+    }
+
+    /* Main content styles remain unchanged */
 }
 
